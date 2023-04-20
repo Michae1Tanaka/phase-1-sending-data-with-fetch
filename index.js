@@ -26,8 +26,8 @@ function submitData(name, email){
         })
         .catch((error) => {
             alert('Error Occured');
-            // const body = document.querySelector("body");
-            // const p = document.createElement('p');
+            const body = document.querySelector("body");
+            const p = document.createElement('p');
             p.textContent = error.message;
             body.appendChild(p) 
         })
